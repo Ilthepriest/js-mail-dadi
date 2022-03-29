@@ -47,3 +47,11 @@ bottone.addEventListener('click',
      risultato_dadi.style.color = "red";
  }
 
+
+ const aggiorna = document.querySelector('.aggiorna');
+        aggiorna.addEventListener('click', function() {
+            window.location.reload(true);
+        });
+
+
+        
